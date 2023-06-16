@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char i;
-	char j;
+	int i;
+	int j;
 
-	for (i = 0; i <= 98; i++)
+	for (i = 0; i <= 99; i++)
 	{
 		for (j = i; j <= 99; j++)
 		{
@@ -20,7 +20,7 @@ int main(void)
 			putchar(' ');
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
-			if (i != 98 || j != 99)
+			if (i != 99 || j != 99)
 			{
 				putchar(',');
 				putchar(' ');
