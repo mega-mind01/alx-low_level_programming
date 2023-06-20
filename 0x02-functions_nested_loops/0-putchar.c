@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	char c[] = "_putchar";
 	int i;
+	char c[] = "_putchar";
 
 	for (i = 0; i < 8; i++)
 	{
