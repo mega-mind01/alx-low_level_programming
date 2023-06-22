@@ -20,6 +20,7 @@ void print_most_numbers(void)
 		{
 			continue;
 		}
+		_printchar(i);
 	}
 	_putchar('\n');
 }
