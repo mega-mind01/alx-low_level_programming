@@ -10,14 +10,11 @@
 
 void print_line(int n)
 {
+	int i;
 
-	if (n >= 1)
+	for (i < n; i <= n; i++)
+	if (n <= 0)
 	{
-		_putchat('_');
 		_putchar('\n');
-	}
-	else
-	{
-	_putchar('\n');
 	}
 }
