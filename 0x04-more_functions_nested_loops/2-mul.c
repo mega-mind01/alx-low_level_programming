@@ -6,7 +6,7 @@
  * @a: integer input 1
  * @b: integer input 2
  *
- * Return: returns sum 
+ * Return: returns sum
  */
 
 int mul(int a, int b)
