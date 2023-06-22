@@ -11,9 +11,13 @@
 void print_line(int n)
 {
 
-	for (n = 0; n <= 6; n++)
+	if (n >= 1)
 	{
 		_putchat('_');
+		_putchar('\n');
 	}
+	else
+	{
 	_putchar('\n');
+	}
 }
