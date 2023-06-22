@@ -1,8 +1,8 @@
-#include <stdio.h?
+#include <stdio.h>
 
 /**
  * main - Entry of program
- *
+ *@void: void
  * Return: void
  */
 
