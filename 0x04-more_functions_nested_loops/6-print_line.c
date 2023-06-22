@@ -3,14 +3,15 @@
 /**
  * print_line - prints a line
  *
+ * @n: number of line
+ *
  * Return: returns void
  */
 
 void print_line(int n)
 {
-	int i;
 
-	for (i = 0; i <= 6; i++)
+	for (n = 0; n <= 6; n++)
 	{
 		_putchat('_');
 	}
