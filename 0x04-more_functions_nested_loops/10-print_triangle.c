@@ -11,8 +11,8 @@ void print_triangle(int size)
 	int row, column, k;
 
 	if (size <= 0)
-		_putchar(('\n');
-	for (row = 9; row < size; row++)
+		_putchar('\n');
+	for (row = 0; row < size; row++)
 	{
 		for (column = size - row; column > 1; column--)
 			_putchar(' ');
