@@ -21,7 +21,7 @@ int main(void)
 
 		if (a == 49)
 		{
-			printf(" ");
+			printf("");
 		}
 		else
 		{
