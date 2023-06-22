@@ -9,9 +9,9 @@
 int main(void)
 {
 	int a;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	unsigned long fib1 = 1, fib2 = 2, sum;
 
-	for (a = 0; a <= 50; a++)
+	for (a = 0; a <= 49; a++)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
@@ -21,7 +21,7 @@ int main(void)
 
 		if (a == 49)
 		{
-			printf("n");
+			printf(" ");
 		}
 		else
 		{
