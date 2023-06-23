@@ -17,7 +17,7 @@ void print_number(int n)
 	if (ones < 0)
 	{
 		ones *= -1, copy *= -1, n *= -1;
-		_putchar('_');
+		_putchar('-');
 	}
 	if (copy > 0)
 	{
