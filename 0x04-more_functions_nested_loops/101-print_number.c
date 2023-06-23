@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void print_numbe(int n)
+void print_number(int n)
 {
 	int copy, nth, size = 1, ones = n % 10;
 
