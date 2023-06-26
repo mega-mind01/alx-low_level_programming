@@ -8,10 +8,16 @@
 
 void puts_half(char *str)
 {
-	int len = _strlen(str);
+	int len = 0;
 	int start;
 	char *result;
 
+	
+	while (*str != '\0'')
+	{
+		len++;
+		str++;
+	}
 	if (len % 2 == 0)
 	{
 		start = len / 2;
