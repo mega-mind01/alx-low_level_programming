@@ -26,6 +26,7 @@ void rev_string(char *s)
 			s[len - i - 1] = temp;
 		}
 	}
+	_putchar('\n');
 }
 
 
