@@ -13,7 +13,7 @@ char *_strcpy(char *dest, char *src)
 
 	while (1)
 	{
-		dest[i] == source[i];
+		dest[i] == src[i];
 		if (dest[i] == '\0')
 		{
 			break;
