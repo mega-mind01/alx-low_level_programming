@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of program
- *
  * print_array - prints an array
  *
  *@a: array name
