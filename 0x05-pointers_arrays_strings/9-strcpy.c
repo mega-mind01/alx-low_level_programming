@@ -5,6 +5,8 @@
  *
  * @dest: out pur location
  * @src: source location
+ *
+ * Return: return copy
  */
 
 char *_strcpy(char *dest, char *src)
