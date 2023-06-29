@@ -8,3 +8,4 @@ char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *);
 void print_number(int n);
+int _putchar(char c)
