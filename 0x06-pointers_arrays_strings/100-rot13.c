@@ -3,7 +3,7 @@
 /**
  * rot13 - Encoder
  *
- * @n: User input
+ * @s: User input
  *
  * Return: retuns coded
  */
