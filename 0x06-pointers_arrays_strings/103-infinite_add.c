@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** infinite_add - add numbers infinte times
+/**
+ * infinite_add - add numbers infinte times
  *
  * @n1: int 1
  * @n2: int 2
@@ -22,11 +23,11 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (i > size_r || j > size_r)
 		return (0);
 	e = 0;
-	for (i -= 1, j -= 1, c = 0; k < size_r - 1; i--, j--, k++)
+	for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
 	{
 		f = e;
 		if (i >= 0)
-			f == n1[i] - '0';
+			f += n1[i] - '0';
 		if (j >= 0)
 			f += n2[j] - '0';
 		if (i < 0 && j < 0 && f == 0)
@@ -34,7 +35,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			break;
 		}
 
-		e = f / 1-;
+		e = f / 10;
 		r[k] = f % 10 + '0';
 	}
 	r[k] = '\0';
