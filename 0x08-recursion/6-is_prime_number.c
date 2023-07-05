@@ -10,9 +10,9 @@
 
 int sqrtof(int a, int b)
 {
-	if (n <= 0)
+	if (a <= 0)
 		return (-1);
-	if (n * n == b)
+	if (a * a == b)
 		return (a);
 	return (sqrtof(a - 1, b));
 }
