@@ -18,7 +18,7 @@ int _strlen_recursion(char *s)
 /**
  * is_palid - checks for equality
  *
- * @a: string input
+ * @s: string input
  * @b: index 1
  * @c: index 2
  *
