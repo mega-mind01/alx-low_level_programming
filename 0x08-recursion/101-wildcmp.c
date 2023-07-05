@@ -24,7 +24,7 @@ int wildcmp(char *s1, char *s2)
 		if (*s2 != '*')
 			return (0);
 		else
-			return (wildcmp(s1, s3 + 1));
+			return (wildcmp(s1, s2 + 1));
 	}
 	return (0);
 }
