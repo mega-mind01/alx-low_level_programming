@@ -51,5 +51,5 @@ int is_palindrome(char *s)
 	l = _strlen_recursion(s);
 	if (l == 0 || *s != s[l - 1])
 		return (0);
-	return (is_palid(a, 0, l - 1));
+	return (is_palid_rec(a, 0, l - 1));
 }
