@@ -16,7 +16,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * is_palid - checks for equality
+ * is_palid_rec - checks for equality
  *
  * @s: string input
  * @b: index 1
@@ -33,7 +33,7 @@ int is_palid_rec(char *s, int b, int c)
 		return (s[b] == s[c]);
 	if (s[b] != s[c])
 		return (0);
-	return (is_palid_rec(s, b - 1, c - 1));
+	return (is_palid_rec(s, b + 1, c - 1));
 }
 
 /**
