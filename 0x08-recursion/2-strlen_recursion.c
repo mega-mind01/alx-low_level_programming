@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - checks length
  *
- * @S: string arguement
+ * @s: string arguement
  * Return: return int
  */
 
