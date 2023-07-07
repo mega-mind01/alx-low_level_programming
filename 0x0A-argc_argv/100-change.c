@@ -23,25 +23,25 @@ int main(int argc, char *argv[])
 	cent = 0;
 	if (price > 25)
 	{
-		while (price != 25)
+		while (price >= 25)
 			price -= 25, cent++;
 	}
 	if (price > 10 && price < 25)
 	{
-		while (price != 10)
+		while (price >= 10)
 			price -= 10, cent++;
 	}
 	if (price > 5 && price < 10)
 	{
-		while (price !5)
-			price -=, cent++;
+		while (price >= 5)
+			price -= 5, cent++;
 	}
 	if (price > 2 && price < 5)
 	{
 		while (price >= 2)
 			price -= 2, cent++;
 	}
-	if (price == 1 || price == 2 || price 5 || price == 10 || price == 25)
+	if (price == 1 || price == 2 || price == 5 || price == 10 || price == 25)
 	{
 		cent++;
 	}
