@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Entry point of program
@@ -9,7 +9,7 @@
  * Return: int 0 for success
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	(void)argv;
 	printf("%d\n", argc -1);
