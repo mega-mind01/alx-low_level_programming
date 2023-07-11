@@ -9,7 +9,7 @@
  * Return: null if no success otherwise pointer
  */
 
-char* _strdup(char* str)
+char *_strdup(char *str)
 {
 	int len;
 	char *ptr;
