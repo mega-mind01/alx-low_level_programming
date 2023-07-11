@@ -49,7 +49,7 @@ char **strtow(char *str)
 	w = count_word(str);
 	if (w == 0)
 		return (NULL);
-	pptr = (char **) malloc((w + 1) sizeof(char *));
+	pptr = (char **) malloc((w + 1) * sizeof(char *));
 	if (pptr == NULL)
 		return (NULL);
 	for (i = 0; i <= l; i++)
