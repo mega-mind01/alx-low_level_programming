@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
 	}
 	if (!b)
 		_putchar('0');
-	_putchar('\0');
+	_putchar('\n');
 	free(p);
 	return (0);
 }
