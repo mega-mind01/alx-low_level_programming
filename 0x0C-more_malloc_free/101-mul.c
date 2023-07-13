@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 	int l1, l2, l, a, m = 0, n1, n2, *p, b = 0;
 
 	s1 = argv[1], s2 = argv[2];
-	if (argc != 3, || !is_digit(s1) || !is_digit(s2))
+	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
 	l1 = _strlen(s1);
 	l2 = _strlen(s2);
@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
 			_putchar(p[a] + '0');
 	}
 	if (!b)
-		_putchar('0);
+		_putchar('0');
 	_putchar('\0');
 	free(p);
 	return (0);
