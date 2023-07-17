@@ -6,7 +6,7 @@
  *
  * @s: string input
  *
- * @Return: legth
+ * Return: legth
  */
 
 int _strlen(char *s)
@@ -17,7 +17,7 @@ int _strlen(char *s)
 
 	while (s[i] != '\0')
 		i++;
-	return (0);
+	return (i);
 }
 /**
  * _strcpy - copies a string input
