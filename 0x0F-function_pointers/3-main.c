@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "function_pointers.h"
-#include "calc.h"
+#include "3-calc.h"
 
 /**
  * main - calculates operations
@@ -12,7 +12,7 @@
  * Return: 0 on success
  */
 
-int main(int argc, char *argv)
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int f1, f2;
 	char *op;
