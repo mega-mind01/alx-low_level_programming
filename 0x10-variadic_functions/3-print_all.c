@@ -14,7 +14,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	char *ptr, *sep = "";
+	const char *ptr, *sep = "";
 	int i = 0;
 
 	va_start(args, format);
