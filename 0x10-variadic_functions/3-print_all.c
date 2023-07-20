@@ -6,15 +6,14 @@
  * print_all - print varrying number of arguement
  *
  * @format: input type
- *
- * Return: void
  */
 
 void print_all(const char * const format, ...)
 {
-	va_list args;
 	char *ptr, *sep = "";
 	int a = 0;
+
+	va_list args;
 
 	va_start(args, format);
 
@@ -22,7 +21,7 @@ void print_all(const char * const format, ...)
 	{
 		while (format[a])
 		{
-			switch ([a])
+			switch (format[a])
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(args, int));
