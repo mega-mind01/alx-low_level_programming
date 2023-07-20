@@ -13,7 +13,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	const char *ptr, *sep = "";
+	char *ptr, *sep = "";
 	int a = 0;
 
 	va_start(args, format);
