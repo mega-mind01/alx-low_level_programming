@@ -1,4 +1,4 @@
-#include "lists,h"
+#include "lists.h"
 
 /**
  * add_node - add node to start of linked list
@@ -14,7 +14,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *new_node;
 	unsigned int len;
 
-	while (str[l])
+	while (str[len])
 		len++;
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
