@@ -3,7 +3,7 @@
 void print_first(void)__attribute__((constructor));
 
 /**
- * first - prints before execution
+ * print_first - prints before execution
  */
 
 void print_first(void)
