@@ -14,7 +14,7 @@ size_t free_listint_safe(listint_t **h)
 	int min;
 	listint_t *tem;
 
-	if (h == NULL || *h == NULL)
+	if (!h || !*h)
 		return (0);
 	while (*h)
 	{
