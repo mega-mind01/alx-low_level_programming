@@ -19,6 +19,7 @@ size_t free_listint_safe(listint_t **h)
 	while (*h)
 	{
 		min = *h - (*h)->next;
+		l = 0;
 		if (min > 0)
 		{
 			tem = (*h)->next;
