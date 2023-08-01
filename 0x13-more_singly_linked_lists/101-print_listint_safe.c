@@ -17,7 +17,7 @@ size_t listint_loop(const listint_t *head)
 	if (head == NULL || head->next == NULL)
 		return (0);
 	new1 = head->next;
-	new2 = (head->next)>next;
+	new2 = (head->next)->next;
 
 	while (new2)
 	{
@@ -73,10 +73,10 @@ size_t print_listint_safe(const listint_t *head)
 	{
 		for (idx = 0; idx < count; idx++)
 		{
-			printf("[%p]%d\n",(void *)head, head->n);
+			printf("[%p]%d\n", (void *)head, head->n);
 			head = head->next;
 		}
-		printf("->[%p]%d\n",(void *)head, head->n);
+		printf("->[%p]%d\n", (void *)head, head->n);
 	}
 	return (count);
 }
