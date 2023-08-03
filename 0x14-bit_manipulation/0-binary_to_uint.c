@@ -1,25 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - counts length of string
- *
- * @s: pointer to string
- *
- * Return: string count
- */
-
-int _strlen(char *s)
-{
-	int len = 0;
-
-	while (*s != '\0')
-	{
-		len++;
-		s++;
-	}
-	return (len);
-}
-/**
  * binary_to_uint - converts binary to a decimal
  *
  * @b: pointer to inputed binary value
@@ -30,22 +11,19 @@ int _strlen(char *s)
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int new;
-	int sum;
-	int l;
+	int i;
 
 	new = 0;
-	sum = 1;
 
 	if (b == NULL)
 		return (0);
-	l = _strlen(b);
-	for (i = l - 1; i >= 0; i--)
+
+	for (i = 0; b[i]; i++)
 	{
-		if (b[i] == "1")
-			new += sum;
-		else if (b[i] != "0")
+		if (b[i] == '1' || b[i] == '0')
+			new = 2 * new + (b[i] - '0');
+		else if (b[i] != '0' || b[i] != '1')
 			return (0);
-		sum *= 2;
 	}
 	return (new);
 }
