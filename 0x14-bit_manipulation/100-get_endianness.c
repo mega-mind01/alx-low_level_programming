@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * get_endianness - checks for size of endian
+ * get_endianness - ges a machine size
  *
- * Return: 0 if big and 1 if little
+ * Return: 1 or 0
  */
 
 int get_endianness(void)
 {
 	unsigned int a = 1;
-	char *ptr = (char *)& a;
+	char *ptr = (char *) & a;
 
-	return (*c);
+	return (*ptr);
 }
+
