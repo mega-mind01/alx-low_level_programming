@@ -34,7 +34,7 @@ void close_file(int files)
 {
 	int close_file;
 
-	close_file = close(file);
+	close_file = close(files);
 
 	if (close_file == -1)
 	{
@@ -53,7 +53,7 @@ void close_file(int files)
 
 int main(int argc, char *argv[])
 {
-	int src, dest, read_file, wwrite_file;
+	int src, dest, read_file, write_file;
 	char *buffer;
 
 	if (argc != 3)
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 	dest = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
-		if (src == -1 || ead_filer == -1)
+		if (src == -1 || read_file == -1)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't read from file %s\n", argv[1]);
