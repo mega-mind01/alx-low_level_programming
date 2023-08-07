@@ -3,7 +3,7 @@
 /**
  * read_textfile - reads a txt file
  *
- * @filemame: pointer to txt file
+ * @filename: pointer to txt file
  * @letters: word count in txt file
  *
  * Return: num of bytes printed
