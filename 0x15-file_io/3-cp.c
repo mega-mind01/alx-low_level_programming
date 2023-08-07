@@ -27,16 +27,16 @@ char *create_buffer(char *file)
 
 /**
  * close_file - close open file
- * @fd: pointer to file to be closed
+ * @files: pointer to file to be closed
  */
 
 void close_file(int files)
 {
-	int close_file;
+	int close_f;
 
-	close_file = close(files);
+	close_f = close(files);
 
-	if (close_file == -1)
+	if (close_f == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close file %d\n", files);
 		exit(100);
